@@ -1,0 +1,7 @@
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\bin\Debug\Kill_Name.exe.config
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\bin\Debug\Kill_Name.exe
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\bin\Debug\Kill_Name.pdb
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\obj\Debug\Kill_Name.csproj.CoreCompileInputs.cache
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\obj\Debug\Kill_Name.exe
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\obj\Debug\Kill_Name.pdb
+D:\Csharp\Kill_Name\Kill_Name\Kill_Name\obj\Debug\Kill_Name.csprojAssemblyReference.cache
