@@ -12,12 +12,17 @@ namespace Kill_Name
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("请输入进程前缀：");
-            string ProcName = Console.ReadLine();
+            //Console.WriteLine("请输入进程前缀：");
+            //string ProcName = Console.ReadLine();
             while (true)
             {
                 try
-                { KillProcA(ProcName); }
+                { //KillProcA(ProcName);
+                    if (args != null && args.Length > 0)
+                    {
+                        KillProcA(args[0]);
+                    }
+                }
                 catch
                 { continue;
                   
@@ -45,6 +50,7 @@ namespace Kill_Name
                         { p.Kill(); }
                         catch
                         { continue; }
+                        //此处类似于手动关闭窗口，非强杀进程操作。
                         /*
                         if (!p.CloseMainWindow())
                         {
