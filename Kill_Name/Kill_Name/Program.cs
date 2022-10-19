@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 
 namespace Kill_Name
@@ -24,14 +20,10 @@ namespace Kill_Name
                     }
                 }
                 catch
-                { continue;
-                  
-                 }
-                Thread.Sleep(10);
+                { continue;}
+                Thread.Sleep(1000);
             }
         }
-
-
 
         public static void KillProcA(string strProcName)
         {
